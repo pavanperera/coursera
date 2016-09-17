@@ -1,0 +1,84 @@
+ 
+body {
+
+	font-size: 16px;
+	color: #000;
+	background-color:#859D31;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+	background-color: #AAC255;
+	border-radius: 0;
+	border: 0;
+	
+	}
+	.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top:0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin-top: 0px;
+	border: .5px solid #415009;
+}
+#nav-list a {
+	color: #000;
+	text-align: center;
+	border: .5px solid #415009;
+}
+#nav-list a:hover {
+	background: #415009;
+}
+#nav-list a span {
+	font-size: 2em;
+}
+.navbar-default .navbar-toggle,.navbar-default .navbar-toggle .icon-bar{
+	border: 1px solid #415009;
+}
+#top {
+	font-weight: bold;
+	font-size: 1.9em;
+}
+section > div {
+	border: 1px solid #415009;
+	background-color: #586D0B;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	
+	
+}	
+#link {
+	color: #052768;
+}
+
+
+
+
+/* medium devices(desktop) */ 
+@media (min-width: 992px) {
+}
+	
+	
+
+/*small devices(tab) */
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* extra small devices(mobile) */
+@media (max-width: 767px) {
+
+   
+}
